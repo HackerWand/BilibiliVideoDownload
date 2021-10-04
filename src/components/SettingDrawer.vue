@@ -106,9 +106,9 @@ export default {
         if (!error) {
           console.log(values)
           this.store.set('setting', values)
-          this.visible = false
           this.form.resetFields()
         }
+        this.visible = false
       })
     },
     async show (info) {
