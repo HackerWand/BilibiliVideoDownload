@@ -3,7 +3,6 @@
     title="设置"
     :width="320"
     :visible="visible"
-    :closable="false"
     wrapClassName="custom-drawer-scroll-bar"
     @close="hide">
     <a-form :form="form">
